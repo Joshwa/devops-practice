@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 log_dir=~/.log_archive
 
 if [ ! -d "$log_dir" ]; then
