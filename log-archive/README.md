@@ -1,7 +1,7 @@
 # Log Archive Tool
 ----
 
-https://roadmap.sh/projects/log-archive-tool
+[https://roadmap.sh/projects/log-archive-tool](https://roadmap.sh/projects/log-archive-tool)
 
 ## Basic usage
 log-archive.sh /directory/to/be/archived
