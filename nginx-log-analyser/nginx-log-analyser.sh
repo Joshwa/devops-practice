@@ -10,9 +10,9 @@ ip_address='$1'
 request_path='$7'
 response_code='$9'
 
-echo "Top 5 IP addresses with the most requests:"
+echo -e "\e[1mTop 5 IP addresses with the most requests:\e[0m"
 getcount "$ip_address"
-echo "Top 5 most requested paths:"
+echo -e "\e[1mTop 5 most requested paths:\e[0m"
 getcount "$request_path"
-echo "Top 5 response status codes:"
+echo -e "\e[1mTop 5 response status codes:\e[0m"
 getcount "$response_code"
