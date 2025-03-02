@@ -16,3 +16,5 @@ echo -e "\e[1mTop 5 most requested paths:\e[0m"
 getcount "$request_path"
 echo -e "\e[1mTop 5 response status codes:\e[0m"
 getcount "$response_code"
+echo -e "\e[1mTop 5 user agents:\e[0m"
+cat ./nginx-access.log | awk -F'"' '{print $6}' | sort | uniq -c | sort -nr | head -n 5 | awk '{print substr($0, index($0, $2)), "-", $1, "requests"}'
