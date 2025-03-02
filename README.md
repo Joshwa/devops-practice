@@ -7,4 +7,4 @@ All projects can be found here: [roadmap.sh](https://roadmap.sh/devops/projects)
 
 [2. log-archive ✅](https://roadmap.sh/projects/log-archive-tool)
 
-[3. nginx-log-anaylser ✅](https://roadmap.sh/projects/nginx-log-anaylser)
+[3. nginx-log-analyser ✅](https://roadmap.sh/projects/nginx-log-analyser)
