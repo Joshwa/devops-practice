@@ -4,3 +4,6 @@
 
 # Basics
 Static site with CI/CD to GitHub pages using GitHub Actions
+
+# URL
+https://joshwa.github.io/devops-practice
